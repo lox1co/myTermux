@@ -153,10 +153,6 @@ export COLUMNS LINES
 
   </details>
 
-- [NCMPCPP] - Music Player
-
-  ![music_out](https://user-images.githubusercontent.com/64394320/170211279-a26d0f0e-1cf8-4b8b-ae21-8a1a79515574.png)
-
 - [COLORTOYS] - Pipes
 
   ![pipes](https://user-images.githubusercontent.com/66439853/178114136-25a80169-2413-4a92-ac4b-e0df649da5f2.png)

@@ -34,13 +34,7 @@ alias myipwifi="bash ~/.scripts/system/ip.sh wifi"
 alias myiphotspot="~/.scripts/system/ip.sh hotspot"
 alias myipvpn="~/.scripts/system/ip.sh vpn"
 alias myipall="~/.scripts/system/ip.sh all"
-
-#Music    
-alias n="ncmpcpp"
-alias mkill="mpd --kill"
-alias m="music"
-alias ncmpcpp-compile="~/myTermux/compile/install/ncmpcpp-compile.sh"
-
+  
 #Color Toys
 alias 256colors2="~/.scripts/toys/256colors2.pl"
 alias bloks="~/.scripts/toys/bloks"
@@ -91,21 +85,10 @@ alias lta="eza --icons --tree -lgha"
 alias bat="bat --theme OneHalfDark"
 alias cat="bat --theme OneHalfDark -p $@"
 
-#proot-distro
-alias prot="cd $PREFIX/var/lib/proot-distro"
-alias protlogin="proot-distro login $1"
-
 #Magick
 alias listfont="magick convert -list font | grep -iE 'font:.*'"
 
 ## Configuration
-
-#mpd
-alias mpdconf="nvim ~/.config/mpd/mpd.conf"
-alias mpconf="nvim /data/data/com.termux/files/usr/etc/mpd.conf"
-
-#ncmpcpp    
-alias ncmconf="nvim ~/.config/ncmpcpp/config"
 
 #neovim
 alias nviminit="nvim ~/.config/nvim/init.lua"

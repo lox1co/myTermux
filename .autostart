@@ -18,11 +18,6 @@ echo -e "\e[4 q"
 
 #fi
 
-#if [ ! -f ~/.scripts/pid/login ]; then
-        
-  # bash ~/.scripts/login.sh
-
-#fi
 
 #neo
 #clear

@@ -2,7 +2,7 @@
 
 PACKAGES=(
   awesomeshot bat curl clang eza fzf git imagemagick
-  inotify-tools lf mpd mpc neovim openssh
+  inotify-tools lf neovim openssh ripgrep
   neofetch termux-api tmux zsh
 )
 

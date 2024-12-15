@@ -12,7 +12,7 @@ function NvChad() {
 
     stat "RUN" "Warning" "Move '${COLOR_WARNING}NvChad${COLOR_BASED}' Folder to '${COLOR_WARNING}.config/nvim${COLOR_BASED}' ..."
 
-    mv $HOME/NvChad $HOME/.config/nvim
+    mv $HOME/starter $HOME/.config/nvim
 
     if [ -d $HOME/.config/nvim ]; then
 
