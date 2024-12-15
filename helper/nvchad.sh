@@ -6,7 +6,7 @@ function NvChad() {
 
   stat "CHECK" "Warning" "'${COLOR_WARNING}NvChad${COLOR_BASED}' Folder"
   
-  if [ -d $HOME/NvChad ]; then
+  if [ -d $HOME/starter ]; then
 
     stat "RESULT" "Success" "'${COLOR_SUCCESS}NvChad${COLOR_BASED}' exist"
 
