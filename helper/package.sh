@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PACKAGES=(
-  awesomeshot bat curl clang eza fzf git imagemagick
+  bat curl clang eza fzf git imagemagick
   inotify-tools lf neovim openssh ripgrep
   neofetch termux-api tmux zsh nodejs
 )

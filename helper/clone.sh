@@ -7,6 +7,7 @@ REPOSITORY_LINKS=(
   https://github.com/joshskidmore/zsh-fzf-history-search
   https://github.com/jimeh/tmux-themepack
   https://github.com/lox1co/starter
+  https://github.com/Awesomesh0t/awesomeshot
 )
 
 REPOSITORY_APIS=(
@@ -16,6 +17,7 @@ REPOSITORY_APIS=(
   repos/joshskidmore/zsh-fzf-history-search
   repos/jimeh/tmux-themepack
   repos/lox1co/starter
+  repos/Awesomesh0t/awesomeshot
 )
 
 REPOSITORY_FULL_NAME=(
@@ -25,6 +27,7 @@ REPOSITORY_FULL_NAME=(
   joshskidmore/zsh-fzf-history-search
   jimeh/tmux-themepack
   lox1co/starter
+  Awesomesh0t/awesomeshot
 )
 
 REPOSITORY_PATH=(
@@ -34,6 +37,7 @@ REPOSITORY_PATH=(
   $HOME/.oh-my-zsh/custom/plugins/zsh-fzf-history-search
   $HOME/.tmux-themepack
   $HOME/starter
+  $HOME/awesomeshot
 )
 
 function repoSize() {
@@ -80,7 +84,11 @@ function cloneRepository() {
 
     start_animation "       Cloning ${COLOR_WARNING}'${COLOR_SUCCESS}${REPOSITORY_FULL_NAME[i]}${COLOR_WARNING}'${COLOR_BASED} ..."
 
-    git clone ${REPOSITORY_LINKS[i]} ${REPOSITORY_PATH[i]} 2> /dev/null
+    if [ "${REPOSITORY_FULL_NAME[i]}" == "git clone -b termux Awesomesh0t/awesomeshot" ]; then
+      git clone -b termux ${REPOSITORY_LINKS[i]} ${REPOSITORY_PATH[i]} 2> /dev/null
+    else
+      git clone ${REPOSITORY_LINKS[i]} ${REPOSITORY_PATH[i]} 2> /dev/null
+    fi
 
     if [ -d ${REPOSITORY_PATH[i]} ]; then
 

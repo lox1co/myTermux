@@ -29,6 +29,8 @@ function main() {
 
   zshTheme
   switchCase "Install" "ZSH Themes" installZshTheme
+  
+  AwesomeShot
 
   NvChad
   utility
