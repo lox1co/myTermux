@@ -113,11 +113,11 @@ alias fetchconf="nvim ~/.scripts/system/fetch.sh"
 alias awesomeconf="nvim ~/.config/awesomeshot/awesomeshot.conf"
 
 #git
-alias gitgraph="git log --all --decorate --oneline --graph"
-alias gitupdate="git fetch && git pull"
-alias gitstat="git status"
-alias gitad="git add $@"
-alias gitcom="git commit -m '$@'"
+# alias gitgraph="git log --all --decorate --oneline --graph"
+# alias gitupdate="git fetch && git pull"
+# alias gitstat="git status"
+# alias gitad="git add $@"
+# alias gitcom="git commit -m '$@'"
 
 #Web Server (Require install LAMP on Termux) https://github.com/xshin404/lampTermux
 alias apaconf="nvim $PREFIX/etc/apache2/httpd.conf"

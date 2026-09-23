@@ -8,6 +8,8 @@ REPOSITORY_LINKS=(
   https://github.com/jimeh/tmux-themepack
   https://github.com/lox1co/starter
   https://github.com/Awesomesh0t/awesomeshot
+  https://github.com/marlonrichert/zsh-autocomplete
+
 )
 
 REPOSITORY_APIS=(
@@ -18,6 +20,7 @@ REPOSITORY_APIS=(
   repos/jimeh/tmux-themepack
   repos/lox1co/starter
   repos/Awesomesh0t/awesomeshot
+  repos/marlonrichert/zsh-autocomplete
 )
 
 REPOSITORY_FULL_NAME=(
@@ -28,6 +31,7 @@ REPOSITORY_FULL_NAME=(
   jimeh/tmux-themepack
   lox1co/starter
   Awesomesh0t/awesomeshot
+  marlonrichert/zsh-autocomplete
 )
 
 REPOSITORY_PATH=(
@@ -38,6 +42,7 @@ REPOSITORY_PATH=(
   $HOME/.tmux-themepack
   $HOME/starter
   $HOME/awesomeshot
+  $HOME/.oh-my-zsh/custom/plugins/zsh-autocomplete
 )
 
 function repoSize() {
